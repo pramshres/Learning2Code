@@ -20,6 +20,6 @@ After running, a File Explorer will open. Search your way to the Labyrint direct
 
 .in files contains the a labyrint made of characters.
 
-Then a graphical user interface will pop up showing you the contents of the .in file in a much more appealing way. 
+Then a graphical user interface will pop up showing you the contents of the .in file in a much more appealing way.<br/>  
 Click on any of the white square boxes. The program will then find the fastest route to the exit simultaneously showing the path it took by displaying it in the terminal.
 

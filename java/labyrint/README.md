@@ -1,6 +1,6 @@
 # Labyrint GUI
 
-This is a task given by the University of Oslo. 
+This was a task given by the University of Oslo. 
 
 # How to run
 

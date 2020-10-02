@@ -5,5 +5,4 @@
 To run this program write:
 ``` 
 python main.py
-
 ``` 

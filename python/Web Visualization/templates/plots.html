@@ -1,0 +1,32 @@
+<!doctype html>
+
+<h2>Assignment 6</h2>
+
+{% if error %}
+<p style="color:red">{{ error }}</p>
+<br>
+{% endif %}
+
+<a href="{{url_for('help') }}">6.5: Check out the Help Page</a><br></br>
+<a href="{{url_for('map') }}">6.6: COVID-19 rate per 100000 inhabitants by county in Norway</a><br></br>
+
+<form action="plots" method="POST">
+
+  <label for="start">Start date:</label><br>
+  <input type="date" id="start" name="start_date" value="2020-02-21" min="2020-02-21" max="2020-11-05"><br></br>
+  
+  <label for="end">End date:</label><br>
+  <input type="date" id="end" name="end_date" value="2020-11-05" min="2020-02-21" max="2020-11-05"><br></br>
+  
+  <label for="Choice_text">Choose county</label>
+    <select name="county_choice">
+      {% for county in counties %}
+        <option value="{{ county }}">{{ county }}</option>
+      {% endfor %}     
+    </select>
+
+    <input type = "submit" value="Submit">
+</form>
+
+
+   

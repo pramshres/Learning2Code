@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"url": "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/norway/norway-new-counties.json", "format": {"feature": "Fylker", "type": "topojson"}}, "mark": "geoshape", "encoding": {"color": {"type": "quantitative", "field": "Insidens", "legend": {"title": "Cases per 100k"}, "scale": {"scheme": "reds"}}, "opacity": {"condition": {"value": 1, "selection": "selector001"}, "value": 0.8}, "stroke": {"condition": {"value": "gray", "selection": "selector001"}, "value": null}, "tooltip": [{"type": "nominal", "field": "properties.navn", "title": "County"}, {"type": "quantitative", "field": "Insidens", "title": "Cases per 100k"}]}, "height": 600, "selection": {"selector001": {"type": "single", "on": "mouseover", "fields": ["properties.navn"], "empty": "none"}}, "title": "Number of cases per 100k innhabitants in every county", "transform": [{"lookup": "properties.navn", "from": {"data": {"name": "data-e3b79b1adf419a4a65ac40b9dd45dc1f"}, "key": "Category", "fields": ["Insidens"]}}], "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-e3b79b1adf419a4a65ac40b9dd45dc1f": [{"Category": "Oslo", "Insidens": 1162.4}, {"Category": "Viken", "Insidens": 608.1}, {"Category": "Vestland", "Insidens": 644.6}, {"Category": "Innlandet", "Insidens": 378.9}, {"Category": "Rogaland", "Insidens": 271.3}, {"Category": "Tr\u00f8ndelag", "Insidens": 233.4}, {"Category": "Vestfold og Telemark", "Insidens": 212.2}, {"Category": "Agder", "Insidens": 264.3}, {"Category": "Troms og Finnmark", "Insidens": 305.4}, {"Category": "M\u00f8re og Romsdal", "Insidens": 200.2}, {"Category": "Nordland", "Insidens": 186.5}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

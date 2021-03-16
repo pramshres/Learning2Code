@@ -17,7 +17,7 @@ In this program, we will feature all the sorting algorithms written below.
 javac *.java && java SortingAlgo
 ```
 
-The program will guide from there.
+The program will guide you from there.
 
 
 

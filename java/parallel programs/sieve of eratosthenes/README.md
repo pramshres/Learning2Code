@@ -10,6 +10,10 @@ The program requires that the user enters 3 inputs.
 * ``` k ``` is the amount of threads. (Entering 0 will utilize all the cores in user's computer)
 * ``` runs ``` is the amount of times you want the program to run. (This is for finding the median runtime) 
 
+The program will generate two files: 
+* File containing the primes
+* File containing the factors
+
 ### How to run:
 
 ```

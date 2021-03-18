@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">GoogleMap</string>
+
+
+    <!--WeatherIcons-->
+    <string-array name="symboler_array">
+        <item>1: Sun</item>
+        <item>2: LightCloud</item>
+        <item>3: PartlyCloud</item>
+        <item>4: Cloud</item>
+        <item>5: LightRainSun</item>
+        <item>6: LightRainThunderSun</item>
+        <item>7: SleetSun</item>
+        <item>8: SnowSun</item>
+        <item>9: LightRain</item>
+        <item>10: Rain</item>
+        <item>11: RainThunder</item>
+        <item>12: Sleet</item>
+        <item>13: Snow</item>
+        <item>14: SnowThunder</item>
+        <item>15: Fog</item>
+        <item>20: SleetSunThunder</item>
+        <item>21: SnowSunThunder</item>
+        <item>22: LightRainThunder</item>
+        <item>23: SleetThunder</item>
+        <item>24: DrizzleThunderSun</item>
+        <item>25: RainThunderSun</item>
+        <item>26: LightSleetThunderSun</item>
+        <item>27: HeavySleetThunderSun</item>
+        <item>28: LightSnowThunderSun</item>
+        <item>29: HeavySnowThunderSun</item>
+        <item>30: DrizzleThunder</item>
+        <item>31: LightSleetThunder</item>
+        <item>32: HeavySleetThunder</item>
+        <item>33: LightSnowThunder</item>
+        <item>34: HeavySnowThunder</item>
+        <item>40: DrizzleSun</item>
+        <item>41: RainSun</item>
+        <item>42: LightSleetSun</item>
+        <item>43: HeavySleetSun</item>
+        <item>44: LightSnowSun</item>
+        <item>45: HeavysnowSun</item>
+        <item>46: Drizzle</item>
+        <item>47: LightSleet</item>
+        <item>48: HeavySleet</item>
+        <item>49: LightSnow</item>
+        <item>50: HeavySnow</item>
+        <item>101: Dark_Sun</item>
+        <item>102: Dark_LightCloud</item>
+        <item>103: Dark_PartlyCloud</item>
+        <item>129: Dark_HeavySnowThunderSun</item>
+    </string-array>
+    <!--knapper-->
+    <string name="icons_PNG">Fetch PNG</string>
+    <string name="icons_SVG">Fetch SVG</string>
+
+
+    <!--OceanForecast-->
+    <string name="skriv_lengdegrad">Lengdegrad…</string>
+    <string name="skriv_breddegrad">Breddegrad…</string>
+    <string name="tittel_tekst">Hent Værinformasjon</string>
+    <string name="sjekk_resultat">Sjekk Resultat</string>
+    <string name="vis_tempHav">Vanntemperaturen er: %1$s°C</string>
+    <string name="vis_tempLand">Lufttemperaturen er: %1$s°C</string>
+    <string name="beachIcon">beachIcon</string>
+
+    <string name="kort_melding1">%1$s°C i luften.</string>
+    <string name="kort_melding2">%1$s. %2$s m/s fra %3$s</string>
+    <string name="ingen_respons">Feil ved henting av data fra API.</string>
+    <string name="ugydlig_lokasjon">Her var det ikke så mye å finne. Prøv en annen lokasjon.</string>
+    <string name="ugydlig_input">Ugyldig input. Vennligst fyll inn bredde- og lengdegrad.</string>
+    <string name="search_hint">Søk etter områder ved havet</string>
+    <string name="velg_punkt">Velg et punkt på kartet</string>
+    <string name="ikon">ikon</string>
+    <string name="places_api">AIzaSyCkISgPGWwhwmLDaQC60xwaULcxOkYjfW0</string>
+    <string name="finn_strender">Finn strender</string>
+
+    <string-array name="tidspunkt">
+        <item>Nå</item>
+        <item>Om 1 time</item>
+        <item>Om 2 timer</item>
+        <item>Om 3 timer</item>
+        <item>Om 4 timer</item>
+        <item>I morgen</item>
+        <item>Om 2 dager</item>
+    </string-array>
+
+    <string-array name="aktivitet">
+        <item>Finn strender</item>
+        <item>Finn vann</item>
+        <item>Finn padling</item>
+        <item>Finn fjell</item>
+        <item>Finn klatring</item>
+        <item>Finn turmiljø</item>
+        <item>Finn </item>
+    </string-array>
+
+    <!--LocationForecast-->
+    <string name="search_hint_locfor">Søk etter område</string>
+    <string name="okchoose">Velg et område</string>
+    <string name="title">Stedet du har valgt</string>
+    <string name="dato">Dato: </string>
+    <string name="tid">Tid: </string>
+    <string name="temp">Temp: </string>
+    <string name="nedbor">Nedbør: </string>
+    <string name="vind">Vind: </string>
+    <string name="sol">Sol </string>
+    <string name="velgHvordan">Hvordan ønsker du å se værmeldingen for </string>
+    <string name="tftTekst">Se været nå</string>
+    <string name="tftKnapp">Time for time</string>
+    <string name="dagerTekst">Se værmeldingen dagene framover</string>
+    <string name="dagerKnapp">Langtidsvarsel</string>
+    <string name="valgtValg">Ditt valgte område</string>
+    <string name="locationUrl">https://in2000-apiproxy.ifi.uio.no/weatherapi/</string>
+    <string name="vis_vaer">Vis værmelding for:\n</string>
+    <string name="vis_vaer_adresse">Vis værmelding for:\n%1$s</string>
+
+
+    <!--Nowcast-->
+    <string name="nowcastAPI">Nowcast</string>
+    <string name="regnmengde">Mengde regn per 5 minutt:</string>
+
+
+    <string name="cloudAPI">Cloud</string>
+    <string name="mainButton">Button</string>
+
+
+    <!--Clouds-->
+    <string name="timer">Timer: </string>
+    <string name="yellow">Gul palett indikerer lave skyer, med skybase under ca. 2000 meter over bakkenivå \n\nFor alle paletter: mørkeste farge indikerer de høye skyene/tåketetthet.</string>
+    <string name="light_brown">Lysebrun palett indikerer mellomhøye skyer, med skybase fra 2000 meter til 4000 meter \n\nFor alle paletter: mørkeste farge indikerer de høye skyene/tåketetthet.</string>
+    <string name="red">Rød palett viser tåke \n\nFor alle paletter: mørkeste farge indikerer de høye skyene/tåketetthet.</string>
+
+
+    <!--UI Menu-->
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Open</string>
+    <string name="test_menu">Menu</string>
+    <string name="title_activity_settings">Settings</string>
+    <!--Knapper-->
+    <string name="menu_nyheter">Nyheter</string>
+    <string name="menu_kattegori">Hemmelig Kattegori</string>
+    <string name="meni_om">Om Appen</string>
+    <string name="menu_instillinger">Innstillinger</string>
+    <string name="menu_hjelp">Hjelp</string>
+    <!--Drawer-->
+    <string name="drawer_overskrift">Overskrift</string>
+    <string name="drawer_info">Informasjon</string>
+
+
+    <!--Bottom-Navigation-->
+    <string name="bottom_home">Hjem</string>
+    <string name="bottom_map">Kart</string>
+    <string name="bottom_category">Kategorier</string>
+
+
+    <!--Frontpage-->
+    <string name="frontpage_sted">Stedsnavn</string>
+    <string name="frontpage_tid">dag og tid</string>
+
+
+    <!-- Settings: Overskrifter -->
+    <string name="generelt_header">Generelt</string>
+    <string name="tilpass_header">Tilgjengelighet</string>
+    <string name="hjelp_header">Mer</string>
+    <!-- Generelt -->
+    <string name="varsler">Skru på varsler</string>
+    <string name="feedback">Gi oss tilbakemelding!</string>
+    <string name="feedbackMer">Rapporter tekniske problemer eller kom med forslag til forbedringer.</string>
+    <string name="bakgrunn">Bruk bakgrunn etter været</string>
+    <!-- Tilpass -->
+    <string name="storTekst">Større tekst</string>
+    <string name="kontrast">Øk fargekontraster</string>
+    <string name="fargefilter">Grått fargefilter</string>
+    <!-- Restart -->
+    <string name="rTit">Start på nytt</string>
+    <string name="rSum">For å anvende må du restarte applikasjonen.</string>
+    <string name="rBut">Restart</string>
+
+
+    <!--Forhold-->
+    <string name="korttid">Time For Time</string>
+    <string name="langtid">Langtid</string>
+    <string name="anbefaling">Bør man utføre aktiviteten eller ikke?</string>
+    <string name="værdata">Relevant værdata for aktiviteten</string>
+
+
+    <!--Kattegori-->
+    <string name="spiller">Spiller</string>
+    <string name="motstander">Motstander</string>
+    <string name="katt_overskrift">Kattegori: Infinity War</string>
+    <string name="trekk">Trekk</string>
+
+    <!--FrontPageFrag-->
+    <string name="sted_temp">Stedsnavn</string>
+    <string name="tid_temp">Dag og tid</string>
+    <string name="no_address">Fant ikke din addresse</string>
+
+
+</resources>

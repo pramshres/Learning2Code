@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bakgrunn_test"
+    android:orientation="vertical">
+
+    <PreferenceCategory app:title="@string/generelt_header">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:key="bakgrunn"
+            app:title="@string/bakgrunn" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/tilpass_header">
+        <SwitchPreferenceCompat
+            app:key="storTekst"
+            app:title="@string/storTekst" />
+        <SwitchPreferenceCompat
+            app:key="fargefilter"
+            android:defaultValue="false"
+            app:title="@string/fargefilter" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference
+            android:key="resetBD"
+            android:title="@string/rTit"
+            android:summary="@string/rSum"
+            android:widgetLayout="@layout/reset" />
+    </PreferenceCategory>
+</PreferenceScreen>

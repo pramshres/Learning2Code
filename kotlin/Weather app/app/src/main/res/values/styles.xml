@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/himmelbla</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeBig" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/himmelbla</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- BW theme. -->
+    <style name="bw" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cardBack</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/materialBlack</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="android:statusBarColor">@color/places_autocomplete_search_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- BW BIG theme. -->
+    <style name="bwBig" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cardBack</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/materialBlack</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="android:statusBarColor">@color/places_autocomplete_search_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Splash theme. -->
+    <style name = "AppTheme.SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name = "android:windowBackground">@drawable/background_splash</item>
+        <item name = "windowActionBar">false</item>
+        <item name = "windowNoTitle">true</item>
+    </style>
+
+    <style name="NavigationView_SeparatorColor"  parent="Base.Theme.AppCompat">
+        <item name="android:listDivider">@drawable/just_white</item>
+    </style>
+
+
+</resources>

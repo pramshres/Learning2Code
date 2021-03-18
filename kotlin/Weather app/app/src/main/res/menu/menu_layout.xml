@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:title="@string/menu_nyheter">
+        </item>
+
+        <item
+            android:id="@+id/secret"
+            android:icon="@drawable/ic_kattegori_black_24dp"
+            android:title="@string/menu_kattegori">
+        </item>
+
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/meni_om">
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_instillinger"/>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title = "@string/menu_hjelp"
+            />
+    </group>
+
+</menu>

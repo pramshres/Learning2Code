@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_gradient"
+    android:id="@+id/katt_id"
+    >
+
+
+    <TextView
+        android:id="@+id/opponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:gravity="center"
+        android:text="@string/motstander"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/iv_card_top"
+        app:layout_constraintEnd_toEndOf="@id/iv_card_top"
+        app:layout_constraintTop_toBottomOf="@id/iv_card_top"/>
+
+    <TextView
+        android:id="@+id/you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:gravity="center"
+        android:text="@string/spiller"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/iv_card_bottom"
+        app:layout_constraintEnd_toEndOf="@id/iv_card_bottom"
+        app:layout_constraintTop_toBottomOf="@id/iv_card_bottom"
+       />
+
+    <TextView
+        android:id="@+id/enemy_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/opponent"
+        app:layout_constraintEnd_toEndOf="@id/opponent"
+        app:layout_constraintTop_toBottomOf="@id/opponent" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/you"
+        app:layout_constraintEnd_toEndOf="@id/you"
+        app:layout_constraintTop_toBottomOf="@id/you"/>
+
+
+    <ImageView
+        android:id="@+id/iv_card_top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="170dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/c_back"
+        app:layout_constraintEnd_toStartOf="@id/iv_card_bottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.40"
+        app:layout_constraintWidth_percent="0.40"
+        android:importantForAccessibility="no"/>
+
+    <ImageView
+        android:id="@+id/iv_card_bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="168dp"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        android:maxWidth="200dp"
+        android:maxHeight="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/c_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_card_top"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.40"
+        app:layout_constraintWidth_percent="0.40" />
+
+    <Button
+        android:id="@+id/draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/radius"
+        android:text="@string/trekk"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/overskrift_katt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/katt_overskrift"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

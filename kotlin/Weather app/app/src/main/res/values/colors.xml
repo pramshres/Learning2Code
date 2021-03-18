@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="himmelbla">#4498DA</color>
+
+    <color name="cloudRed">#FF0000</color>
+    <color name="cloudBrown">#FFA549</color>
+    <color name="cloudYellow">#FFFF01</color>
+    <color name="materialBlack">#424242</color>
+    <color name="materialText">#BDBDBD</color>
+
+    <!--<color name="cardBack">#546062</color>-->
+    <color name="cardBack">#FFFFFF</color>
+    <color name="solknapp">#F6D97F</color>
+    <color name="himmel">#796AD1FF</color>
+    <color name="svakblu">#FDD5EDF8</color>
+    <color name="hvit">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="grey">#696969</color>
+    <color name="dodger_Blue">#1E90FF</color>
+    <color name="icon_color_clicked">#b584bc</color>
+    <color name="icon_color_unclicked">#90b8d5</color>
+    <color name="bottom_nav_color">#2d5876</color>
+    <color name="bw_topp_bottom">#4b4b4b</color>
+
+</resources>
